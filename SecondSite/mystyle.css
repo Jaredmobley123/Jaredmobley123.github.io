@@ -1,0 +1,50 @@
+@charset "UTF-8";
+/* CSS Document */
+
+    
+               body 
+               {
+                   background-color: black;
+                   
+                   margin-left: 150px;
+                   margin-right: 150px;
+                   margin-top: 150px;
+                   margin-bottom:150px;
+                   
+                   font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, 'sans-serif';
+                   
+               } 
+               
+               h1
+               {
+                   font-size: 47px;
+                   font-family: Constantia;
+				   color: aqua;
+    
+                   
+               }
+               
+               h2
+               {
+                   font-size: 27px;
+                   font-family: Impact;
+                   color: coral;
+               }
+               
+               h3
+               {
+                   font-size: 22px;
+				   color:darkorange;
+               }
+               
+               p
+               {
+                   font-size: 13px;
+				   color: darkorange;
+                   
+               }
+               
+               
+           
+ 
+            
