@@ -1,7 +1,7 @@
 @charset "UTF-8";
 /* CSS Document */
 
-               body 
+	body 
                {
                    background-color: black;
                    
@@ -10,7 +10,7 @@
                    margin-top: 200px;
                    margin-bottom:200px;
                    
-                   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', Monaco, 'Courier New', 'monospace''DejaVu Sans', 'sans-serif';
+                   font-family: 'Lucida Grande', 'Lucida Sans Unicode', Consolas, 'Andale Mono', 'Lucida Console', 'Lucida Sans Typewriter', 'Courier New', 'monospace''DejaVu Sans', 'sans-serif';
 				   
                    
                } 
@@ -19,7 +19,7 @@
                {
                    font-size: 47px;
                    font-family: Brush Script Cambria, "Hoefler Text", "Liberation Serif", Times, "Times New Roman", "serif";
-				   color: aqua;
+				   color: mediumblue;
 				   text-align: center;
     
                    
@@ -47,4 +47,4 @@
 				   text-align: center;
                    
                }
-               
+   
