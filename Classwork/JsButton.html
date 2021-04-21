@@ -29,8 +29,12 @@ Click me to display Date and Time.</button>
 	
 
 	<input type="text" id="myText" value="Enter item">
-	<button onclick="foodFunction()">Input item</button>
+	<button onclick="foodFunction()">Input food</button>
 	<p id="spitOutFood"></p>
+	
+	<input type="text" id="newText" value="Enter item">
+	<button onClick="drinkFunction()">Input drink</button>
+	<p id="spitOutDrink"></p>
 	
 	<script>
 	
@@ -38,6 +42,12 @@ Click me to display Date and Time.</button>
 			{
 				var x = document.getElementById("myText").value;
 				document.getElementById("spitOutFood").innerHTML = x;
+			}
+		
+		function drinkFunction()
+			{
+				var y = document.getElementById("newText").value;
+				document.getElementById("spitOutDrink").innerHTML = y;
 			}
 	
 	</script>
