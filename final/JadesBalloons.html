@@ -6,10 +6,9 @@
 	 <style>
        
           
-body
-           
+body        
         {
-            
+        
         background-image: url("blackout.gif");
          background-repeat: no-repeat, repeat;
          background-position: center;
@@ -35,39 +34,37 @@ body
             text-align: center;
             display:inline-block; 
             text-align: center;      
-            
-        
-           
           }
-           
-       </style>     
+ * {
+  box-sizing: border-box;
+}
+
+.row {
+  display: flex;
+}
+
+.column {
+  flex: 33.33%;
+  padding: 5px;
+}          
+</style>     
 	
 </head>
 
 <body>
-	<nav>
-        
-        <ul> 
-            <li><img src="Header.png" alt="header" width="800" style="vertical-align: top"></li>
-			
-        	<li><img src="aboutme.png" alt="Me" width="300" height="300" style="vertical-align: middle"></li>
-			
-			<li><img src="InquiryForm.png" alt="Form" width="300" height="300" style="float: left"</li>
-				
-			<li><img src="InstagramAccount.png" alt="Social" width="300" height="300" style="float: left"</li>
-			
-			
-			
-		
-			
-			
-			
-			
-			
-        </ul> 
-    
-        </nav>
-	
+<img src="Header.png" alt="header" class="center">
+
+<div class="row">
+  <div class="column">
+    <img src="aboutme.png" alt="Me" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="InquiryForm.png" alt="Forms" style="width:100%">
+  </div>
+  <div class="column">
+    <img src="InstagramAccount.png" alt="Social" style="width:100%">
+  </div>
+</div>
 	
 	
 </body>
